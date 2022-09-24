@@ -1,0 +1,13 @@
+*{
+    margin: 1;
+    padding: 1;
+}
+h1{
+    color: rgb(218, 18, 151);
+}
+h2{
+    color: rgb(170, 7, 121);
+}
+div{
+    background-color: rgb(251, 246, 246);
+}
