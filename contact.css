@@ -1,13 +1,22 @@
 
     h1{
-      background-color: aliceblue;
+      
       color: rgb(33, 240, 240);
     }
     body{
-      background-color: aquamarine;
+      background:rgba(0, 0, 0, 0.7) url('bg.jpg');
+      background-size: cover;
+      background-blend-mode: darken;
+      
     }
     h2{
-        background-color: aliceblue;
-      color: rgb(1, 18, 18);
+        
+      color: rgb(238, 244, 244);
 
     }
+    .background{
+      background:rgba(0, 0, 0, 0.7) url('bg.jpg');
+      background-size: cover;
+      background-blend-mode: darken;
+    }
+

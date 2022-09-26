@@ -1,21 +1,135 @@
 *{
-    margin: 1;
-    padding: 1;
+    margin: 0;
+    padding: 0;
 }
-h1{
-    color: rgb(218, 18, 151);
-}
-h2{
-    color: rgb(170, 7, 121);
-}
-div{
-    background-color: rgb(251, 246, 246);
-}
-ul{
-    background-color:rgb(111, 111, 148) ;
-    color: rgb(212, 43, 43);
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 
 }
-.title{
-    text-align: center;
+.logo img{
+    width: 33%;
+    border:3px solid white;
+    border-radius: 50px;
+}
+
+.navbar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+
+}
+.nav-list{
+    width: 50%; 
+    
+    display: flex;
+    align-items: center;
+
+
+
+}
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+
+}
+.nav-list li a:hover{
+    color: rgb(71, 42, 165);
+
+}
+.rightNav{
+    
+    width: 50%;
+    text-align: right;
+    padding: 0 23px;
+    
+    
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border:2px solid gray;
+    border-radius: 9px;
+}
+.background{
+    background:rgba(0, 0, 0, 0.7) url('bg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    
+    
+
+
+}
+.firstSection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 75%;
+
+
+}
+.secondHalf img{
+    width: 70%;
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+
+}
+.text-big{
+    font-size: 41px;
+    
+
+}
+.text-small{
+font-size: 18px;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 19px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+.secRight{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+}
+.paras{
+    padding: 283px 65px;
+    padding-top: 0px;
+}
+.thumbnail img{
+    padding left: 0px;
+    padding top: 123px;;
 }
