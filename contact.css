@@ -1,22 +1,38 @@
 
-    h1{
-      
-      color: rgb(33, 240, 240);
-    }
+    
+    
     body{
       background:rgba(0, 0, 0, 0.7) url('bg.jpg');
       background-size: cover;
       background-blend-mode: darken;
-      
     }
-    h2{
-        
-      color: rgb(238, 244, 244);
+    .text-center{
+      text-align: center;
+      padding: 50px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      font-size: 50px;
+    }
+    .form{
+      max-width: 238px;
+      margin: -66px auto;
 
     }
-    .background{
-      background:rgba(0, 0, 0, 0.7) url('bg.jpg');
-      background-size: cover;
-      background-blend-mode: darken;
+    .form input{
+      margin: 30px 0;
+      padding: 5px 3px;
+      font-size: 20px;
+      border: 2px solid grey;
+      border-radius: 6px;
+    }
+    .btn-sm{
+      padding: 6px 10px;
+      vertical-align:middle;
+
+    }
+    .btn-dark{
+      border: 2px solid rgb(32, 2, 2);
+      border-radius: 6px;
+
     }
 
