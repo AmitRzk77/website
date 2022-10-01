@@ -191,8 +191,11 @@ font-size: 18px;
 .burger{
     display: block;
 }
-.h-nav{
+.h-nav-res{
     height: 75px;
+}
+.v-class-res{
+    opacity: 0;
 }
  
 }
