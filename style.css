@@ -162,7 +162,19 @@ font-size: 18px;
     cursor: pointer;
     right: 5%;
     top: 35px;
+    border-radius: 8px;
+    cursor: pointer;
 
+}
+.docs{
+    
+}
+#btn{
+    padding:10px 14px;
+    background-color: red;
+    border: 2px solid black;
+    color: aliceblue;
+    font-weight: bold;
 }
 .line{
     width: 30px;
