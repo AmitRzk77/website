@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 .logo{
     width: 20%;
     display: flex;
@@ -24,7 +27,7 @@
     position: sticky;
     top: 0;
     cursor: pointer;
-
+    
 }
 .nav-list{
     width: 70%; 
@@ -120,12 +123,15 @@ font-size: 18px;
     vertical-align: middle;
 }
 .section{
-    height: 250px;
+
+    height: 200px;
+    
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     max-width: 80%;
-    margin: 119px;
+    margin-top:  180px;
+    margin-bottom: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .paras{
@@ -133,7 +139,7 @@ font-size: 18px;
     padding-top: 0px;
 }
 .imageFluid{
-    padding: 250px 65px;
+    padding: 260px 65px;
     padding-top: 0px;
 }
 .section-left{
@@ -188,13 +194,25 @@ font-size: 18px;
         flex-direction:column;
 }
 .navbar{
+
+    height: 477px;
+
     
     flex-direction:column;
-
+    transition: all 0.7s ease-out;
+    
 }
 .rightNav{
     text-align: center;
    
+}
+.box-main{
+    flex-direction: column-reverse;
+    max-width: 100%;
+}
+.section{
+    flex-direction: column-reverse;
+    height: 607px;
 }
 #search{
     width: 100%;
@@ -208,6 +226,25 @@ font-size: 18px;
 }
 .v-class-res{
     opacity: 0;
+}
+.text-big{
+    text-align: center;
+}
+.text-small{
+    text-align:center;
+}
+.buttons{
+    text-align: center;
+}
+.paras{
+    padding: 0px;
+}
+.thumbnail{
+    padding: 0px;
+}
+.imageFluid{
+    padding: 0px 65px;
+    padding-top: 0px;
 }
  
 }

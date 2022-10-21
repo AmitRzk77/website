@@ -1,3 +1,13 @@
+burger =document.querySelector('.burger')
+navbar =document.querySelector('.navbar')
+navList =document.querySelector('.nav-list')
+rightNav =document.querySelector('.rightNav')
+
+burger.addEventListener('click', ()=>{
+    rightNav.classList.toggle('v-class-res');
+    navList.classList.toggle('v-class-res');
+    navbar.classList.toggle('h-nav-res');
+})
 
 
 function togglehide(){
@@ -14,3 +24,4 @@ function togglehide(){
     
     
 }
+
